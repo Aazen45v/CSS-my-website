@@ -8,11 +8,12 @@ body{
     margin: 0px;
     text-align: center;
     font-family: 'Merriweather', serif;
-    font-size: 200%;
+    font-size: 150%;
 }
 
 p{
     color: #40514E;
+    line-height: 2;
 }
 
 h1{
@@ -27,6 +28,7 @@ h2{
     font-family: 'Montserrat', sans-serif;
     color: #66BFBF;
     font-weight: normal;
+    padding-bottom: 10px;
 }
 
 h3{
@@ -34,7 +36,18 @@ h3{
     color: #11999E;
 }
 
+.intro{
+    width: 75%;
+    margin: auto;
+}
+
+.contact-me{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
 .middle-container{
+    margin: 100px 0px;
 }
 
 .bottom-container{
@@ -46,25 +59,24 @@ h3{
 
 .bottom-cloud{
     position: absolute;
-    left: 300px;
+    left: 250px;
     bottom: 300px;
 }
 
 .top-cloud{
     position: absolute;
     right: 300px;
-    top: 50px;
+    top: 40px;
 }
 
 .skill-row{
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
-    line-height: 2;
 }
 
 .Machine-learning{
-    width: 25%;
+    width: 28%;
     float: right;
     padding-left: 30px;
     padding-bottom: 45px;
@@ -72,7 +84,7 @@ h3{
 }
 
 .cplusplus{
-    width: 25%;
+    width: 28%;
     float: left;
     padding-right: 30px;
     padding-bottom: 45px;
@@ -80,23 +92,27 @@ h3{
 }
 
 hr {
-    border-style: none;
-    height: 0px;
-    width: 5%;
-    border-style: dotted none none;
-    border-color: #EAF6F6;
-    border-width: 10px;
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
 }
 
 .bottom-container{
     background-color: #66BFBF;
     text-align: center;
-    padding-bottom: 25px;
-    padding-top: 25px;
+    padding: 50px 0 20px;
 }
 
-.footer-link{
+a{
     color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #eaf6f6;
 }
 
 .btn {
@@ -109,7 +125,7 @@ hr {
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
     border-radius: 8px;
-    font-family: Arial;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 8px;
     padding: 10px 20px 10px 20px;
@@ -124,4 +140,10 @@ hr {
     background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
+  }
+
+  .copy-rights{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
   }
