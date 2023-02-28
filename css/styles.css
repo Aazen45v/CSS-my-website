@@ -95,7 +95,9 @@ hr {
     border: dotted #eaf6f6 6px;
     border-bottom: none;
     width: 4%;
-    margin: 100px auto;
+    margin: 100px;
+    position: relative;
+    left: 650px;
 }
 
 .bottom-container{
